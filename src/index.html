@@ -1,13 +1,143 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Title</title>
-	<link rel="stylesheet" href="css/layout.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Туристическая фирма</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/style.css">
+    <style>
+        a{
+            text-decoration: none;
+        }
+        /* Хедер */
+
+        .header{
+            width: 100%;
+            height: 180px;
+            position: relative;
+        }
+        .header-graph{
+            display: inline-block;
+			padding-left: 200px;
+            margin: 0;
+            position: absolute;
+            top:50%;
+            transform: translate(0, -50%);
+        }
+        .header-phone{
+            display: inline-block;
+            padding-left: 650px;
+            margin: 0;
+            position: absolute;
+            top:50%;
+            transform: translate(0, -50%);
+        }
+        .logo{
+            display: inline-block;
+			padding-left: 30px;
+        }
+
+        /* Контент */
+        .nav{
+            display: inline-block;
+            font-size: 40px;
+            padding: 0 0 10px 10px;
+        }	
+
+		.tours:hover{
+			color: #000;
+		}
+
+		.company:hover{
+			color: #000;
+		}
+
+		.resorts:hover{
+			color: #000;
+		}
+
+        .img{
+            display: block;
+			padding: 0 0 5px 10px;
+            width: 1340px;
+            height: 600px;
+        }
+
+        .info{
+            display: block;
+			padding-left: 10px;
+            font-size: 17px;
+            text-align: left;
+        }
+
+		.tours{
+			padding-left: 250px;
+		}
+		.company{
+			padding-left: 200px;
+		}
+
+		.resorts{
+			padding-left: 200px;
+		}
+
+        /* Футер */
+
+        .footer{
+            display: block;
+            background-color: aqua;
+        }
+        .links{
+            display: inline-block;
+            padding-left: 100px;
+        }
+    </style>  
 </head>
 <body>
-	
+
+    <div class="container-1">
+        <div class="header">
+            <div class="logo">
+                <img src="img/header-logo.png" alt="Картинка">
+            </div>
+            <h2 class="header-graph">График работы: <br> 8:00-18:00</h1>
+            <h2 class="header-phone">Телефон горячей линии: 8 (903) 228 14 88</h2>
+        </div>
+
+        <div class="content">
+            <div class="nav">
+                <a class="tours" href="tours.html">Туры</a>
+                <a class="company" href="company.html">О компании</a>
+                <a class="resorts" href="resorts.html">Курорты</a>
+            </div>
+            <img class="img" src="img/main-bcg.jpg" alt="net">
+            <div class="info">
+                <p>
+                    Многопрофильный туроператор Dunya Tour представлен на российском рынке с 1996 года. За это время для клиентов компании было открыто 30 стран: Азербайджан, Андорра, Болгария, Вьетнам, Греция, Грузия, Доминиканская Республика, Израиль, Индия, Индонезия, Испания, Италия, Кипр, Китай, Куба, Маврикий Мальдивы, Мальта, Марокко, Мексика, ОАЭ, Португалия, Россия, Таиланд, Танзания, Тунис, Турция, Черногория, Чехия и Шри-Ланка.
+                </p> 
+                <p>
+                    Туроператор успешно работает на 40 наиболее популярных туристских направлениях и ежегодно открывает новые. С 2015 года Dunya Tour вышел на внутренний рынок с предложениями отдыха в Краснодарском крае.
+                </p>  
+                <p>
+                    Региональное присутствие Дуня Тур охватывает 42 города Российской Федерации, офисы туроператора открыты в 33 городах.
+                </p>                        
+                <p>
+                    Туроператор Дуня Тур известен в мире уже более двадцати лет. На сегодняшний день под этим брендом успешно работают принимающие компании на курортах десяти стран, а также туроператоры в Российской Федерации, Украине, Республике Казахстан и Германии. Динамичное развитие, стабильность и надежность – ключевые аспекты работы Dunya Tour.
+                </p>                          
+                <p>
+                    Собственные принимающие офисы туроператора (DMC) обслуживают туристов на курортах Андорры, Вьетнама, Греции, Доминиканской Республики, Испании, Кипра, Китая, ОАЭ, Таиланда и Турции.
+                </p>    
+            </div>
+        </div>
+
+        <div class="footer">
+            <h2 class="links">Наш WhatsApp: 8 903 228 14 88</h2>
+            <h2 class="links">Мы в ВКонтакте: tourfirm228</h2>
+            <h2 class="links">Мы в телеграм: 8 903 228 14 88</h2>
+            <h2 class="links">Наш instagram: tourfirm228</h2>
+        </div>
+    </div>
 </body>
 </html>
